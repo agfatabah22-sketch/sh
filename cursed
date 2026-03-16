@@ -16,7 +16,7 @@ _G.FishItConfig = _G.FishItConfig or {
     },
     ["Auto Trade"] = {
         ["Enabled"] = true,
-        ["Whitelist Username"] = {"ElxBetaa","xzkinoy1","xzkinoy2","xzkinoy3","xzkinoy4","apipi0210","xzkinoy5","xzkinoy6","xzkinoy7"},
+        ["Whitelist Username"] = {"ElxBetaa","xzkinoy1","xzkinoy2","xzkinoy3","xzkinoy4","apipi0210"},
         ["Category Fish"] = {
             "Secret",
             -- {Tier = "Mythic", Variant = "Stone"}, -- Tier + Variant
@@ -78,7 +78,7 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Auto Use"] = true,
         ["Minimum Rod"] = "Ghostfinn Rod",
         ["Buy List"] = {
-            ["Luck Totem"] = 2,
+            ["Mutation Totem"] = 48,
         },
     },
     ["Event"] = {
@@ -134,7 +134,7 @@ _G.FishItConfig = _G.FishItConfig or {
             ["Fisherman Island"] = {"Starter Rod"},
             ["Kohana Volcano"] = {"Grass Rod", "Midnight Rod"},
             ["Tropical Grove"] = {"Astral Rod"},
-            ["Crystal Depths"] = {"Element Rod", "Ghostfinn Rod", "Angler Rod", "Ares Rod"},
+            ["Treasure Room"] = {"Element Rod", "Ghostfinn Rod", "Angler Rod", "Ares Rod"},
         },
         ["Endgame"] = "",
     },
