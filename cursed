@@ -1,8 +1,8 @@
 getgenv().ATConfig = {
     -- ## General
     HubKey = "CjHWNyzudDsRcLKsS3LH7nVa6aMVH2j5ehQD90owvZM",
-    MainAccUsername = {"Hunter_Vortex920", "B3astBuild3r8563", "Scarlett_Striker3551", "Thorn_Spark1887", "ShadowStrike_Hawk423", "Om3gaSparkly936", "Huda_FuryRunner6646", "ChaseCraft3270", "EchoX_Orbit7718", "Blizzard_RiftWalk3r3", "NightQuantumLeap3434", "AmberAce1231", "N3bulonLunarRunn3r73", "St0rmChas3rBuild3r45", "ShadeLava9306"},
-    PetsToTrade = {"Nurse Shark", "Strawberry Shortcake Ducky", "Pilot Gull", "Purrowl", "Unicorn Ducky", "Sushi Penguin", "Tealwood Monster"},
+    MainAccUsername = {"Hunter_Vortex920", "B3astBuild3r8563", "Scarlett_Striker3551", "Thorn_Spark1887", "ShadowStrike_Hawk423", "Om3gaSparkly936", "Huda_FuryRunner6646", "ChaseCraft3270", "EchoX_Orbit7718", "Blizzard_RiftWalk3r3", "NightQuantumLeap3434", "AmberAce1231", "N3bulonLunarRunn3r73", "St0rmChas3rBuild3r45", "ShadeLava9306", "AsherW3605", "LeviJohnson5750", "ChloeMartin201682", "JClark201610", "RileyBrown200121", "Owen_Garcia200565", "DanielGonzalez201227", "AsherJ7418", "Jamesreal9541", "Sophia_Thompson19964", "EGonzalez200354", "LukeRodriguez7228", "Julianofficial200626", "Jaxonofficial199821", "MateoHernandez200925"},
+    PetsToTrade = {"Stygian Owl", "River Otter", "Irish Setter"},
     TradePetType = {"ALL"}, -- Choose any combination: "ALL", "Mega", "Neon", "Regular", "Neon_FG", "Regular_FG"
     ForceReceiver = false, -- If true, any account the script is executed on will be treated as a receiver
     PreventGameLoad = false,
@@ -27,7 +27,7 @@ getgenv().ATConfig = {
     AgePets = true,
     AgeNeons = true, -- Enable if u want to make megas
     useTinyAgePotion = true,
-    PetsToAge = {"Tealwood Monster", "Pilot Gull"},
+    PetsToAge = {"Stygian Owl", "River Otter", "Irish Setter"},
     autoFuse = true, -- Auto Convert to Neon/Mega
 
     Leave = true, -- Leaves the game once trade is completed
