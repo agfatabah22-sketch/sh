@@ -8,7 +8,7 @@ getgenv().ATConfig = {
     PreventGameLoad = false,
     
     -- ### Main Pet Buy Feature
-    buyPet = true,
+    buyPet = false,
     PetName = {"River Otter"}, -- Pet Names to Trade/Buy (priority order: buys all of first pet, then all of second, etc.)
     Quantity = 0, -- Set to 0 if you want to buy ALL
 
