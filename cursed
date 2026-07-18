@@ -9,19 +9,19 @@ getgenv().ATConfig = {
     
     -- ### Main Pet Buy Feature
     buyPet = false,
-    PetName = {"River Otter"}, -- Pet Names to Trade/Buy (priority order: buys all of first pet, then all of second, etc.)
+    PetName = {"Dog", "Cat"}, -- Pet Names to Trade/Buy (priority order: buys all of first pet, then all of second, etc.)
     Quantity = 0, -- Set to 0 if you want to buy ALL
 
     -- ### Box Features
     buyBoxes = false,
-    boxName = "Oakee Box",
+    boxName = "Kelp Raider Box",
     openBoxes = true,
 
     -- ### Bait Transfer Features
     transferBait = false,
     baitName = "Shiver Cone Bait", -- [ Shiver Cone Bait / Subzero Popsicle Bait ]
 
-    SmartBuy = false, -- EXPERIMENTAL FEATURE [PETS]
+    SmartBuy = false,
 
     -- ### Pet Aging Features
     AgePets = true,
@@ -30,16 +30,26 @@ getgenv().ATConfig = {
     PetsToAge = {"River Otter", "Chestnut Glyptodon", "General Sheepdog"},
     autoFuse = true, -- Auto Convert to Neon/Mega
 
-    Leave = true, -- Leaves the game once trade is completed
-    LeaveDelay = 3, -- Delay in seconds to wait before leaving
     TradeTimeout = false, -- If true, closes game if trade is confirming for more than 150 seconds
 
-    -- ### FarmSync Features
-    FS_DisableAccount = false,
-    FS_AutoChange = false,
-    FS_StartFolderId = "",
-    FS_EndFolderId = "",
-    FS_ConfigId = "",
+    -- ### Account Features
+    AccountFeatures = {
+        ["LeaveServer"] = true, -- Leave server when transfer is completed
+        ["LeaveDelay"] = 10, -- Delay in seconds to wait before leaving
+
+        ["Selected Tool"] = "FarmSync", -- "FarmSync" or "FarmersV5"
+        ["FarmSync"] = {
+            DisableAccount = false,
+            AutoChange = false,
+            StartFolderId = "",
+            EndFolderId = "",
+            ConfigId = ""
+        },
+        ["FarmersV5"] = {
+            DisableAccount = false,
+            APIKey = "",
+        }
+    },
 
     -- ### Custom Trade List
     CustomTradeList = {
@@ -56,7 +66,7 @@ getgenv().ATConfig = {
             ["Ignore"] = {}
         },
         ["toys"] = {
-            ["Trade"] = {"Paint Sealer"},
+            ["Trade"] = {},
             ["Ignore"] = {}
         },
         ["transport"] = {
