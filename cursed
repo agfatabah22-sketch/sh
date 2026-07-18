@@ -3,7 +3,7 @@ getgenv().ATConfig = {
     HubKey = "CjHWNyzudDsRcLKsS3LH7nVa6aMVH2j5ehQD90owvZM",
     MainAccUsername = {"StormyLaBlizzardI", "N0vaC0reb3Crims0n53C", "Philip_Chaos7411", "MrsLionZone28", "ultr4paisleybriar24B", "GraysonFire7269", "FrostRunn3rBlast5447", "SkyeBlo93x247Rex", "Shad3_Mirag346", "Ash3n_Vort3x9695", "ZacharyCrypt9235", "blitzPixelRemy29", "malakViral8472", "B0ltPhant0mHunter829", "rEaLMADDIEcreWRBLx13", "lunaSUPeRcLan25", "Nora14AvaDrawsZonepl", "Ghost_LunarRunner179", "MiaNation03", "Dorothy_FuryX6348", "AnthonyQueen5370", "Craft_Eagle5168", "St0rmyByteSt0rm3359", "Crims0n_Viper7194", "Thunder_FuryX8056", "RichardThorn3964", "Ech0Blad3_Run35852", "G6uppyAriiiNash", "Craft_St3alth6091", "PowerPrimal703", "NovaByte4068", "skyNovaAce2012", "UltraPaisleyTycoonPr", "BlizzardK7KingO19904", "SonicPZShadow2ZHyper", "Crypt7oEcho22003", "Xz_FALLENMSDRAGONZSS", "Blizzard3aStealth2aN", "ArrowJ5ShadowO5Wolf2", "DusteOScytheDORune20", "GalaxyaoVantazoBeast", "CyberxsThornT1997", "AquadPFlickertPSilve", "XzFrostNBFoxwzX2001", "FallenWaBuilderIaGam", "HollowWtPrimalO1993", "BuilderPICyberN17", "WolfdMNeonj1990", "GoldenTSGlitchU20012", "Bacon1VStare1992", "XZ_ByteStormZYAshenB", "Rifta3F0xA3Dawn46", "Duck72SparklyM199737", "ZeroARLionB18", "Block0rFireE2002", "XzSilverqBPandaAzX20", "Alphay2CraftD1991", "Surge4FBuilderUFF0x1", "BaconcZEchoDZFury199", "FrostbitezlQueenzlFa", "RocketqvScytheCvStar", "CyberOnBlizzarda41", "Gh0stWVPlayzBVFlash1"},
     PetsToTrade = {"River Otter", "Chestnut Glyptodon", "General Sheepdog"},
-    TradePetType = {"Regular_FG", "Neon_FG", "Mega", "Regular"}, -- Choose any combination: "ALL", "Mega", "Neon", "Regular", "Neon_FG", "Regular_FG"
+    TradePetType = {"Regular_FG", "Neon_FG", "Mega", "Regular", "Neon"}, -- Choose any combination: "ALL", "Mega", "Neon", "Regular", "Neon_FG", "Regular_FG"
     ForceReceiver = false, -- If true, any account the script is executed on will be treated as a receiver
     PreventGameLoad = false,
     
@@ -34,7 +34,7 @@ getgenv().ATConfig = {
 
     -- ### Account Features
     AccountFeatures = {
-        ["LeaveServer"] = true, -- Leave server when transfer is completed
+        ["LeaveServer"] = false, -- Leave server when transfer is completed
         ["LeaveDelay"] = 60, -- Delay in seconds to wait before leaving
 
         ["Selected Tool"] = "FarmSync", -- "FarmSync" or "FarmersV5"
