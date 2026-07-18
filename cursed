@@ -1,9 +1,9 @@
 getgenv().ATConfig = {
     -- ## General
     HubKey = "CjHWNyzudDsRcLKsS3LH7nVa6aMVH2j5ehQD90owvZM",
-    MainAccUsername = {"RiftFrostbit31560", "SafiPixel4343", "Hunter_Vortex920", "Noahofficial47", "Ethanreal9402", "LDavis3031", "EmmaHarris200469", "MateoJohnson7937", "Scarlett_Striker3551", "Thorn_Spark1887", "ShadowStrike_Hawk423", "Om3gaSparkly936", "Huda_FuryRunner6646", "ChaseCraft3270", "EchoX_Orbit7718", "Blizzard_RiftWalk3r3", "NightQuantumLeap3434", "AmberAce1231", "N3bulonLunarRunn3r73", "St0rmChas3rBuild3r45", "ShadeLava9306", "AsherW3605", "LeviJohnson5750", "ChloeMartin201682", "JClark201610", "RileyBrown200121", "Owen_Garcia200565", "DanielGonzalez201227", "AsherJ7418", "Jamesreal9541", "Sophia_Thompson19964", "EGonzalez200354", "LukeRodriguez7228", "Julianofficial200626", "Jaxonofficial199821", "MateoHernandez200925", "syududu6784", "atlas5843", "ramones7687", "yorichi13652", "amogus67061", "amonali877", "MDavis1550", "Ezraid201349", "EchoX_Orbit7718", "EliWright200932", "Loganid5870", "Liamid200434", "LiamBaker51", "OAnderson9818", "OThompson651", "HazelRodriguez1191", "HenryPerez201093", "LucasBaker1371", "HenryClark5343", "Lucasofficial8779", "Olivia_Lopez6113", "ScarlettWhite200777", "WilliamGreen7120", "JackKing200512", "William_Hall7994", "Jamesreal201147", "LeviWilson6537", "SophiaJackson806", "JamesPerez986", "EliMoore199664"},
-    PetsToTrade = {"River Otter"},
-    TradePetType = {"Regular_FG", "Neon_FG", "Mega"}, -- Choose any combination: "ALL", "Mega", "Neon", "Regular", "Neon_FG", "Regular_FG"
+    MainAccUsername = {"MrsLionZone28", "ultr4paisleybriar24B", "GraysonFire7269", "FrostRunn3rBlast5447", "SkyeBlo93x247Rex", "Shad3_Mirag346", "Ash3n_Vort3x9695", "ZacharyCrypt9235", "blitzPixelRemy29", "malakViral8472", "B0ltPhant0mHunter829", "rEaLMADDIEcreWRBLx13", "lunaSUPeRcLan25", "Nora14AvaDrawsZonepl", "Ghost_LunarRunner179", "MiaNation03", "Dorothy_FuryX6348", "AnthonyQueen5370", "Craft_Eagle5168", "St0rmyByteSt0rm3359", "Crims0n_Viper7194", "Thunder_FuryX8056", "RichardThorn3964", "Ech0Blad3_Run35852", "G6uppyAriiiNash", "Craft_St3alth6091", "PowerPrimal703", "NovaByte4068", "skyNovaAce2012", "UltraPaisleyTycoonPr", "BlizzardK7KingO19904", "SonicPZShadow2ZHyper", "Crypt7oEcho22003", "Xz_FALLENMSDRAGONZSS", "Blizzard3aStealth2aN", "ArrowJ5ShadowO5Wolf2", "DusteOScytheDORune20", "GalaxyaoVantazoBeast", "CyberxsThornT1997", "AquadPFlickertPSilve", "XzFrostNBFoxwzX2001", "FallenWaBuilderIaGam", "HollowWtPrimalO1993", "BuilderPICyberN17", "WolfdMNeonj1990", "GoldenTSGlitchU20012", "Bacon1VStare1992", "XZ_ByteStormZYAshenB", "Rifta3F0xA3Dawn46", "Duck72SparklyM199737", "ZeroARLionB18", "Block0rFireE2002", "XzSilverqBPandaAzX20", "Alphay2CraftD1991", "Surge4FBuilderUFF0x1", "BaconcZEchoDZFury199", "FrostbitezlQueenzlFa", "RocketqvScytheCvStar", "CyberOnBlizzarda41", "Gh0stWVPlayzBVFlash1"},
+    PetsToTrade = {"River Otter", "Chestnut Glyptodon", "General Sheepdog"},
+    TradePetType = {"Regular_FG", "Neon_FG", "Mega", "Regular"}, -- Choose any combination: "ALL", "Mega", "Neon", "Regular", "Neon_FG", "Regular_FG"
     ForceReceiver = false, -- If true, any account the script is executed on will be treated as a receiver
     PreventGameLoad = false,
     
@@ -27,7 +27,7 @@ getgenv().ATConfig = {
     AgePets = true,
     AgeNeons = true, -- Enable if u want to make megas
     useTinyAgePotion = true,
-    PetsToAge = {"River Otter"},
+    PetsToAge = {"River Otter", "Chestnut Glyptodon", "General Sheepdog"},
     autoFuse = true, -- Auto Convert to Neon/Mega
 
     Leave = true, -- Leaves the game once trade is completed
