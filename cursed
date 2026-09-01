@@ -1,8 +1,8 @@
 getgenv().ATConfig = {
     -- ## General
     HubKey = "CjHWNyzudDsRcLKsS3LH7nVa6aMVH2j5ehQD90owvZM",
-    MainAccUsername = {"BearYGDarke29", "Thorn7TSniperMTSkate", "Xz_GhostB6Lion76Craf", "XzCelestialcVCryptbV", "XzPandaYyNebula1zX20", "FlickerziByteStormyi", "Byt3EhZoom3", "DeltazKDawnl17", "XzBuilderafSniperYzX", "CyberOCBlizzardJCCra", "Xz_Surg3QOLightNOFir", "FusionRZRaveng1995", "XzTiger3iGoldenJzX20", "MaxONClawLNDelta1997", "VantazVPixeln", "ChaosKNLavac1996", "CookieIFBuilderd", "XZ_OrbitsaChillAaSab", "RiderKtGalaxyw1990", "Ph0enixhnTurb0P20003", "XzVenomIaMechapzX200", "ArrowJISparki", "Xz_Haze7yDancerFyLeg", "GhostRHStormA1993", "DustUBPlayzB45", "Nightfalln4RiderD199", "BlitznMTitan6199421", "ProzNArrowE200030", "ProSDCelestial134", "Zeroh0Blizzardd2004"},
-    PetsToTrade = {"Chestnut Glyptodon", "River Otter", "Sushi Penguin", "General Sheepdog", "Alicorn", "Ancient Dragon", "Blue Whale", "Dango Penguins", "Dragonfly", "Dragonfruit Fox", "Emberlight", "Oakee Wizard", "Purrowl", "Sea Turtle", "Silverback Gorilla", "Tealwood Monster", "Stygian Owl", "Oakee Wizard", "Frostbite Bear", "2026 Birthday Butterfly"},
+    MainAccUsername = {"RafAela138911", "MInotAur12879", "Mathilda1289x", "YiShunShin1298", "KhAleed122q", "AngelA1291dq", "Alucard28w", "Eudora129x", "Estes754x", "Barats289x", "Tigreal19x", "Akai36x", "Khufra26x", "Karina28x2", "Gusion7286x", "Fanny278x", "JOy278x", "AAmon178x", "Helcurt289x", "Yin2988x", "SAber1287x", "Lancelot893x", "HAnzo909x", "Benedetta1252x", "Harley1278x", "Selena129x", "Arlott167x", "PAquito3289x", "Kadita152x", "Lesley127x"},
+    PetsToTrade = {"2D Doggy", "2D Kitty", "Alicorn", "Ancient Dragon", "Blue Whale", "Dango Penguins", "Dragonfruit Fox", "Kiwi Kiwi", "Purrowl", "Sea Turtle", "Strawberry Tortle", "Sushi Penguin", "Chihuahua", "Dragonfly"},
     TradePetType = {"ALL"}, -- Choose any combination: "ALL", "Mega", "Neon", "Regular", "Neon_FG", "Regular_FG"
     ForceReceiver = false, -- If true, any account the script is executed on will be treated as a receiver
     PreventGameLoad = false,
