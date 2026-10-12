@@ -1,21 +1,27 @@
 getgenv().ATConfig = {
     -- ## General
     HubKey = "CjHWNyzudDsRcLKsS3LH7nVa6aMVH2j5ehQD90owvZM",
-    MainAccUsername = {"ujangbasri_6", "ujangbasri_50", "ujangbasri_89", "ujangbasri75", "mangkokajaib846", "ujangbasri578", "ujangbasri910", "ujangbasri27", "ujangbasri003", "ujangbasri_73", "mangkokajaib585", "ujangbasri24", "mangkokajaib739", "ujangbasri78", "ujangbasri_9", "ujangbasri38", "ujangbasri70", "ujangbasri0", "ujangbasri99", "ujangbasri273", "ujangbasri358", "ujangbasri129", "mangkokajaib_111", "ujangbasri_0", "ujangbasri759", "ujangbasri03", "ujangbasri56", "ujangbasri345", "mangkokajaib379", "ujangbasri6"},
-    PetsToTrade = {"Crystal Egg"},
+    MainAccUsername = {"Irithel289x", "Moskov27x", "Natan132x", "Melissa128x2", "Popol092x"},
+    PetsToTrade = {"Skelicorn", "Mummy Spider"},
     TradePetType = {"ALL"}, -- Choose any combination: "ALL", "Mega", "Neon", "Regular", "Neon_FG", "Regular_FG"
+    TradePetRarities = {"Mega Common"}, -- "Legendary" = all types of that rarity; "Neon Legendary" / "Mega Legendary" = typed only (ignores TradePetType)
     ForceReceiver = false, -- If true, any account the script is executed on will be treated as a receiver
     PreventGameLoad = false,
     
     -- ### Main Pet Buy Feature
     buyPet = false,
-    PetName = {"Dog", "Cat"}, -- Pet Names to Trade/Buy (priority order: buys all of first pet, then all of second, etc.)
+    PetName = {"Dog", "Cat"}, -- Pet Names to Trade/Buy (priority order: buys all of first pet, then all of second, etc.; "4 Dog" = buy at most 4)
     Quantity = 0, -- Set to 0 if you want to buy ALL
+
+    -- ### Generic Item Buy / Trade
+    buyItem = false,
+    itemNames = {},
+    tradeItems = {},
 
     -- ### Box Features
     buyBoxes = false,
     boxName = "Kelp Raider Box",
-    openBoxes = false,
+    openBoxes = true,
 
     -- ### Bait Transfer Features
     transferBait = false,
@@ -26,16 +32,32 @@ getgenv().ATConfig = {
     -- ### Pet Aging Features
     AgePets = false,
     AgeNeons = true, -- Enable if u want to make megas
-    useTinyAgePotion = true,
-    PetsToAge = {"Three Blind Mice", "Little Lamb"},
+    useTinyAgePotion = false,
+    PetsToAge = {"Dog"},
     autoFuse = true, -- Auto Convert to Neon/Mega
+    SmartAge = false, -- Only FG pets needed for fusion (multiples of 4 per species)
+    SmartAgeTypes = {"neon", "mega"}, -- "neon" = cap normals for neon fuse; "mega" = mega path (normals when they can complete megas, e.g. 16→1 mega; + neon aging)
+    ReceiverAgePets = false, -- Receiver also runs AgePets in the background while accepting trades (requires AgePets = true)
+
+    -- ### Pet Release (recycler) — runs after aging, before trade
+    ReleasePets = false,
+    ReleasePetNames = {}, -- empty = all releaseable; supports "Mega Dog", "Neon Cat", "FG Dog", plain "Dog"
+    ReleaseTypes = {}, -- "Normal", "Neon", "Mega" (empty = all types)
+    ReleaseQuantity = 0, -- 0 = all matches; N = cap
 
     TradeTimeout = false, -- If true, closes game if trade is confirming for more than 150 seconds
+    RealisticTrades = false, -- true: human-like delays + receiver teacher apples; false: fast stage-based trades
+
+    CustomReceiverMode = {
+        Enabled = false, -- Receiver mode: stop when pet threshold is reached
+        PetName = "", -- Pet name to count (supports prefixes like "Neon ", "Mega ", "FG ")
+        PetCount = 1000 -- Trigger when count >= this value
+    },
 
     -- ### Account Features
     AccountFeatures = {
-        ["LeaveServer"] = false, -- Leave server when transfer is completed
-        ["LeaveDelay"] = 60, -- Delay in seconds to wait before leaving
+        ["LeaveServer"] = true, -- Leave server when transfer is completed
+        ["LeaveDelay"] = 10, -- Delay in seconds to wait before leaving
 
         ["Selected Tool"] = "FarmSync", -- "FarmSync" or "FarmersV5"
         ["FarmSync"] = {
@@ -48,43 +70,10 @@ getgenv().ATConfig = {
         ["FarmersV5"] = {
             DisableAccount = false,
             APIKey = "",
+            AutoSwap = false,
+            AutoSwapOption = 1,
+            AutoSwapCooldown = 100,
         }
     },
-
-    -- ### Custom Trade List
-    CustomTradeList = {
-        ["pets"] = {
-            ["Trade"] = {},
-            ["Ignore"] = {}
-        },
-        ["food"] = {
-            ["Trade"] = {},
-            ["Ignore"] = {}
-        },
-        ["pet_accessories"] = {
-            ["Trade"] = {},
-            ["Ignore"] = {}
-        },
-        ["toys"] = {
-            ["Trade"] = {},
-            ["Ignore"] = {}
-        },
-        ["transport"] = {
-            ["Trade"] = {},
-            ["Ignore"] = {}
-        },
-        ["gifts"] = {
-            ["Trade"] = {},
-            ["Ignore"] = {}
-        },
-        ["strollers"] = {
-            ["Trade"] = {},
-            ["Ignore"] = {}
-        },
-        ["stickers"] = {
-            ["Trade"] = {},
-            ["Ignore"] = {}
-        }
-    }
 }
 loadstring(game:HttpGet("https://raw.githubusercontent.com/voltrex2/VoHub/refs/heads/main/UTILITY_SCRIPT"))()
