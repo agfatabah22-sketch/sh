@@ -4,7 +4,7 @@ getgenv().ATConfig = {
     MainAccUsername = {"tabahstore01", "tabahstore02", "tabahstore03", "tabahstore04", "tabahstore05"},
     PetsToTrade = {"Crystal Egg"},
     TradePetType = {"ALL"}, -- Choose any combination: "ALL", "Mega", "Neon", "Regular", "Neon_FG", "Regular_FG"
-    TradePetRarities = {"Mega Common"}, -- "Legendary" = all types of that rarity; "Neon Legendary" / "Mega Legendary" = typed only (ignores TradePetType)
+    TradePetRarities = {}, -- "Legendary" = all types of that rarity; "Neon Legendary" / "Mega Legendary" = typed only (ignores TradePetType)
     ForceReceiver = false, -- If true, any account the script is executed on will be treated as a receiver
     PreventGameLoad = false,
     
