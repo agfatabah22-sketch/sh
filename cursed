@@ -2,7 +2,7 @@ getgenv().ATConfig = {
     -- ## General
     HubKey = "CjHWNyzudDsRcLKsS3LH7nVa6aMVH2j5ehQD90owvZM",
     MainAccUsername = {"tabahstore01", "tabahstore02", "tabahstore03", "tabahstore04", "tabahstore05"},
-    PetsToTrade = {"Crystal Egg"},
+    PetsToTrade = {"Crystal Egg", "Stray Cat Dragon"},
     TradePetType = {"ALL"}, -- Choose any combination: "ALL", "Mega", "Neon", "Regular", "Neon_FG", "Regular_FG"
     TradePetRarities = {}, -- "Legendary" = all types of that rarity; "Neon Legendary" / "Mega Legendary" = typed only (ignores TradePetType)
     ForceReceiver = false, -- If true, any account the script is executed on will be treated as a receiver
@@ -57,7 +57,7 @@ getgenv().ATConfig = {
     -- ### Account Features
     AccountFeatures = {
         ["LeaveServer"] = true, -- Leave server when transfer is completed
-        ["LeaveDelay"] = 3, -- Delay in seconds to wait before leaving
+        ["LeaveDelay"] = 10, -- Delay in seconds to wait before leaving
 
         ["Selected Tool"] = "FarmSync", -- "FarmSync" or "FarmersV5"
         ["FarmSync"] = {
